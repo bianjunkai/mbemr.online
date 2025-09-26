@@ -16,12 +16,6 @@ defaultContentLanguage = 'zh'
     # 是否包括中日韩文字
     hasCJKLanguage = true
 
-# 作者配置
-[author]
-  name = "Kai"
-  email = "bianjunkai@gmail.com"
-  link = "http://www.mbemr.online"
-
 # 菜单配置
 [menu]
   [[menu.main]]
@@ -96,6 +90,12 @@ enableEmoji = true
   # website images for Open Graph and Twitter Cards
   # 网站图片, 用于 Open Graph 和 Twitter Cards
   images = ["/logo.png"]
+
+  # 作者配置
+  [params.author]
+    name = "Kai"
+    email = "bianjunkai@gmail.com"
+    link = "http://www.mbemr.space"
 
   # Header config
   # 页面头部导航栏配置
