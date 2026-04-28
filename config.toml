@@ -10,9 +10,9 @@ title = "人行夋夋 山中智己 "
 defaultContentLanguage = 'zh'
 [languages]
   [languages.zh]
-    languageCode = "zh-CN"
+    locale = "zh-CN"
     # 语言名称 ["English", "简体中文", "Français", "Polski", ...]
-    languageName = "简体中文"
+    label = "简体中文"
     # 是否包括中日韩文字
     hasCJKLanguage = true
 
@@ -692,7 +692,7 @@ enableEmoji = true
 # Permalinks 配置 (https://gohugo.io/content-management/urls/#permalinks)
 [Permalinks]
   # posts = ":year/:month/:filename"
-  posts = ":filename"
+  posts = ":contentbasename"
 
 # Privacy config (https://gohugo.io/about/hugo-and-gdpr/)
 # 隐私信息配置 (https://gohugo.io/about/hugo-and-gdpr/)
@@ -701,7 +701,7 @@ enableEmoji = true
   # Google Analytics 相关隐私 (被 params.analytics.google 替代)
   [privacy.googleAnalytics]
     # ...
-  [privacy.twitter]
+  [privacy.x]
     enableDNT = true
   [privacy.youtube]
     privacyEnhanced = true
@@ -726,7 +726,6 @@ enableEmoji = true
   page = ["HTML", "MarkDown"]
   section = ["HTML", "RSS"]
   taxonomy = ["HTML", "RSS"]
-  taxonomyTerm = ["HTML"]
 
 
 [frontmatter]
